@@ -3,9 +3,9 @@ body {
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     grid-template-areas:
-        "nav nav"
-        "aside header"
-        "aside main"
+        "aside aside"
+        "nav header"
+        "nav main"
         "footer footer";
     font-size: 1rem;
 }

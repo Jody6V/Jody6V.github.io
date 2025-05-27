@@ -1,0 +1,96 @@
+body {
+    background-color: #284B63;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    animation: background_colour_change 12s infinite;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+    background-color: #353535;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem
+}
+
+aside img{
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main div img {
+    width: 50%;
+    padding: 1em;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepic {
+    animation: profile_pic_flash 6s infinite;
+}
+
+@keyframes profile_pic_flash {
+    0%, 100% {
+        opacity: 100%
+    }
+    20%, 80%{
+        opacity:80%
+    }
+    30%, 70%{
+        opacity:75%
+    }
+    40%, 60%{
+        opacity:70%
+    }
+    50%{
+        opacity:65%
+    }
+}
+
+@keyframes background_colour_change {
+    0%, 100%{
+        background-color: #284B63;
+    }
+    50%{
+        background-color: #032B43;
+    }
+}
+
+form {
+    display: grid;
+    width: 100%;
+    height:auto;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    }
+
+form textarea{
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+input[type="submit"] {
+    grid-row:2;
+    width: 15%;
+    }
