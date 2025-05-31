@@ -46,37 +46,6 @@ main div {
     justify-content: center;
 }
 
-.profilepic {
-    animation: profile_pic_flash 6s infinite;
-}
-
-@keyframes profile_pic_flash {
-    0%, 100% {
-        opacity: 100%
-    }
-    20%, 80%{
-        opacity:80%
-    }
-    30%, 70%{
-        opacity:75%
-    }
-    40%, 60%{
-        opacity:70%
-    }
-    50%{
-        opacity:65%
-    }
-}
-
-@keyframes background_colour_change {
-    0%, 100%{
-        background-color: #284B63;
-    }
-    50%{
-        background-color: #032B43;
-    }
-}
-
 form {
     display: grid;
     width: 100%;
