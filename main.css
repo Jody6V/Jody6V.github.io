@@ -15,8 +15,11 @@ nav {
 
 main {
     grid-area: main;
-    background-color: #353535;
+    background-color: #2d3836;
 }
+
+main p a {text-decoration: none;
+    color: #50eea9;}
 
 aside {
     grid-area: aside;
