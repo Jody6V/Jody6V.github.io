@@ -1,6 +1,6 @@
 body {
-    background-color: #284B63;
-    color: whitesmoke;
+    background-color: #1F2421;
+    color: #DCE1DE;
     font-family: 'Inter', sans-serif;
     animation: background_colour_change 12s infinite;
 }
@@ -30,10 +30,15 @@ footer {
     height: 3rem
 }
 
-aside img{
+header h3 { color: #9CC5A1}
+
+header img{
+    height: 10rem;
+    width: 10rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 
 main div img {
     width: 50%;
@@ -44,6 +49,13 @@ main div {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main {align-content: center;}
+
+main p {
+    width: 70%;
+    justify-self:  center;
 }
 
 form {
